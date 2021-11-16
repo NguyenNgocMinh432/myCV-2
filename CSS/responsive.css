@@ -1,0 +1,133 @@
+/* mobile and tablet */
+@media only screen and (max-width: 1023px){
+    .header{
+        width: 100%;
+    }
+}
+/* tablet */
+
+@media only screen and (min-width:740px ) and (max-width:1023px){
+    /* .content__introduce{
+        height:130vh !important;
+    }
+    .content__about{
+        height:150vh !important;
+    } */
+    .contact__item--right > p{
+        font-size: 10px;
+    }
+    .contact__item--left > a{
+        padding:1px !important;
+    }
+  
+}
+
+@media only screen and (min-width:740px){
+    .toggle {
+        display:none;
+        
+    }
+}
+/* mobile */
+@media only screen and (max-width:739px){
+    .header__logo{
+        margin-left: 1%;
+    }
+   .header__nav{
+       display: none;
+   }
+   .content__introduce{
+       width: 100%;
+      
+   }
+   .content__introduce--image{
+       display: none;
+   }
+   /* .content__about{
+       
+   }
+   .education{
+       
+   } */
+   .list__education{
+       margin-left: 60px !important;
+   }
+   .favorite__text--title > h3{
+       text-align: center;
+   }
+   .portfolio__title--text{
+       display: none;
+   }
+
+}
+@media only screen and (max-width:500px){
+    .content__about--title h3{
+        font-size:50px !important;
+    }
+    .list__education{
+        margin-left: -10% !important;
+    }
+    .timeline__event--date{
+        font-size: 15px;
+    }
+    
+    .timeline__event:hover .timeline__event--date {
+        left: -35px !important;
+        transition: all .3s ease;
+    }
+    .education__title h3 {
+        font-size:40px;
+    }
+    .portfolio__title--show>h3{
+        font-size:40px !important;
+    }
+    .contact__me--top>h3{
+        font-size:40px !important;
+    }
+    .favorite__text--title >h3{
+        font-size:40px !important;
+    }
+    .skills__title{
+        font-size:40px !important;
+    }
+    .content__about--title{
+        font-size:40px !important;
+    }
+}
+@media only screen and (max-width:374px){
+    .list__education{
+        margin-left: -25% !important;
+    }
+    .timeline__event--date{
+        font-size: 10px;
+    }
+    
+    .timeline__event:hover .timeline__event--date {
+        left: -33px !important;
+        transition: all .3s ease;
+    }
+    .education__title h3 {
+        font-size:30px;
+    }
+    .timeline__event--content, .timeline__event--content >.title {
+        font-size:10px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    .middle{
+        font-size:21px !important ;
+    }
+    .content__introduce--name > h1{
+        font-size:50px !important;
+    }
+    .contact__me--top>h3{
+        font-size:40px !important;
+    }
+    .favorite__text--title >h3{
+        font-size:40px !important;
+    }
+    .portfolio__title--show>h3{
+        font-size:40px !important;
+    }
+}
